@@ -1,6 +1,1 @@
-function copyToClipboard(id) {
-    const text = document.getElementById(id).innerText;
-    navigator.clipboard.writeText(text).then(() => {
-        alert("Copied!");
-    });
-}
+function copyToClipboard(id){const t=document.getElementById(id).innerText;navigator.clipboard.writeText(t).then(()=>alert("Copied!"));}
